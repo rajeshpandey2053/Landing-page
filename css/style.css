@@ -187,11 +187,10 @@ footer{
     margin: 80px 3%;
   }
 }
-@media (max-width: 480px){
+@media (max-width: 480px) and (min-width: 376px){
 
 .header-content{
   padding-top: 10vh;
-  margin: 5vh;
 }
 
 .header-content h2 span{
@@ -238,4 +237,54 @@ footer{
   margin: 80px 3%;
 }
 
+}
+
+@media (max-width: 375px){
+  .header-content{
+    padding-top: 10vh;
+   
+  }
+  .header-content h2 span{
+    line-height: 0px;
+  }
+  .header-content h2{
+    font-size: 20px;
+  }
+
+  .header-content a{
+    display: block;
+  }
+  
+
+  .btn{
+    padding: 5px 20px;
+    margin: 15px;
+  }
+
+  
+.intro-content{
+  display: block;
+  height: 960px;
+}
+.intro-content div{
+  width: 100%;
+}
+
+.intro-content p{
+  line-height: 200%;
+}
+.services{
+  height: 1240px;
+  clip-path: polygon(0 0, 15% 0, 50% 5%, 90% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.service-content{
+  display: block;
+  margin-top: -15vh;
+  padding-top: 1px;
+}
+.bucket{
+  width: 100%;
+  margin: 80px 3%;
+}
 }
