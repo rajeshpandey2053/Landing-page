@@ -188,15 +188,34 @@ footer{
   }
 }
 @media (max-width: 480px){
-  .header-content h2{
+
+.header-content{
+  padding-top: 10vh;
+  margin: 5vh;
+}
+
+.header-content h2 span{
+  line-height: 0px;
+}
+.header-content h2{
   font-size: 20px;
-  line-height: 10px;
+
   
 }
 
+.header-content a{
+  display: block;
+}
+
+.btn{
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+
 .intro-content{
   display: block;
-  height: 90vh;
+  height: 120vh;
 }
 
 .intro-content div{
@@ -204,8 +223,8 @@ footer{
 }
 
 .services{
-  height: 100vh;
-  clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  height: 150vh;
+  clip-path: polygon(0 0, 15% 0, 50% 5%, 90% 0, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
 .service-content{
@@ -220,8 +239,3 @@ footer{
 }
 
 }
-
-
-kada hudo raxa ta...wait ma hercu
-
-on aauna fb ma ma call garxu
